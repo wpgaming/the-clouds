@@ -1,0 +1,54 @@
+/******************************************
+                  SETTINGS
+ ******************************************/
+
+.button {
+	width: 210px;    /* Button Width  */
+	height: 240px;   /* Button Height */
+}
+
+.forums {
+	background-image: url(../images/dc_forums.html);
+}
+
+.vote {
+	background-image: url(../images/VoteIcon.html);
+}
+
+.button2 {
+	width: 210px;    /* Button Width  */
+	height: 240px;   /* Button Height */
+}
+
+.store {
+	background-image: url(../images/ShopIcon.html);
+}
+
+/******************************************
+				 LEAVE ALONE
+ ******************************************/
+
+.button {
+	display: inline-block;
+	text-indent: -99999px;
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+.button2 {
+	display: inline-block;
+	text-indent: -99999px;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+.button:hover {
+	background-position: bottom left;
+}
+
+.button2:hover {
+	background-position: bottom left;
+}
+
+.pp_description a, .pp_description a:hover, .pp_description a:active, .pp_description a:visited {
+	color:#fff;
+}
